@@ -1,0 +1,2 @@
+# 运行程序只依赖 Python 标准库；GUI 使用 tkinter。
+# 打包 exe 请安装开发依赖：pip install -r requirements-dev.txt

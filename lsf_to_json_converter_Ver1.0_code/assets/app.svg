@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2d7dff"/>
+      <stop offset="0.52" stop-color="#6157d8"/>
+      <stop offset="1" stop-color="#19b67a"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="18" y="18" width="220" height="220" rx="46" fill="url(#g)" filter="url(#s)"/>
+  <path d="M76 47h78l44 44v118a13 13 0 0 1-13 13H76a13 13 0 0 1-13-13V60a13 13 0 0 1 13-13z" fill="#ffffff" opacity="0.96"/>
+  <path d="M154 47v42a10 10 0 0 0 10 10h34" fill="#d8e7ff"/>
+  <path d="M82 111h62" stroke="#2d7dff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M82 139h46" stroke="#6157d8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M82 167h69" stroke="#19b67a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M150 133h32" stroke="#f5a623" stroke-width="12" stroke-linecap="round"/>
+  <path d="M174 116l25 23-25 23" fill="none" stroke="#f5a623" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="128" y="222" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#ffffff">LSF</text>
+</svg>
