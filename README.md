@@ -36,31 +36,7 @@
 └─ LICENSE                         MIT 协议
 ```
 
-## 运行 GUI
 
-Windows 双击：
-
-```bat
-run_windows.bat
-```
-
-或者：
-
-```bat
-python main.py gui
-```
-
-不带参数时也会打开 GUI：
-
-```bat
-python main.py
-```
-
-## 命令行用法
-
-```bat
-python main.py <命令> [参数]
-```
 
 可用命令：
 
@@ -204,34 +180,6 @@ build_exe_console.bat
 ```text
 dist\LSF文件转JSON文件Ver1.0.exe
 dist\lsf2json.exe
-```
-
-## GitHub Actions 自动打包
-
-仓库已包含 `.github/workflows/build-windows.yml`。发布到 GitHub 后，可在 Actions 页面手动运行工作流，或推送 tag 自动打包 Windows exe。
-
-推荐发布流程：
-
-```bash
-git init
-git add .
-git commit -m "Release LSF to JSON converter v1.0"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/<仓库名>.git
-git push -u origin main
-
-git tag v1.0.0
-git push origin v1.0.0
-```
-
-打包结果会作为 Actions Artifact 上传；推送 `v*` tag 时也会生成 GitHub Release 草稿附件。
-
-## 兼容旧写法
-
-旧版命令仍可使用：
-
-```bat
-python main.py --cli --input "E:\work3\output" --output "E:\work3\json" --recursive
 ```
 
 ## 协议
