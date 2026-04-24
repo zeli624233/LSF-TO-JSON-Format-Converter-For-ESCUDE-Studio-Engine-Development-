@@ -153,34 +153,6 @@ python main.py index -i "E:\work3\output" -o "E:\work3\lsf_index.json" -r --with
 
 注意：`selection_groups` 的分类是基于目前分析过的小E社引擎样本做的启发式规则；如果遇到新结构，建议优先查看 `records` 和 `slots` 原始数据。
 
-## Windows 打包 exe
-
-本项目运行时无第三方依赖；打包 exe 需要 PyInstaller。
-
-打包 GUI + 控制台版：
-
-```bat
-build_exe.bat
-```
-
-只打包 GUI 版：
-
-```bat
-build_exe_gui.bat
-```
-
-只打包命令行版：
-
-```bat
-build_exe_console.bat
-```
-
-输出目录：
-
-```text
-dist\LSF文件转JSON文件Ver1.0.exe
-dist\lsf2json.exe
-```
 
 ## 协议
 
